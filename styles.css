@@ -1,0 +1,37 @@
+:root {
+    --azul: #3772FF; 
+    --branco-mensagem-fixa: #FFFFFF;
+}
+
+body {
+    background-color: var(--azul);
+    font-family: var(--fonte-principal);
+}
+/* Botões */
+
+.rodape {
+    background: #FFFFFF;
+
+    /*creditos*/
+    position: absolute;
+    width: 243px;
+    height: 24px;
+    left: 65px;
+    top: 854px;
+
+    /* Parágrafo */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
